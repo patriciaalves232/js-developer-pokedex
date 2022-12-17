@@ -1,0 +1,36 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+    
+}
+.container{
+    background: #eee;
+    height: 20vh;
+   text-align: center;
+   font-size: 80px;
+   
+}
+.elemento{
+    background: #000;
+    color:#fff;
+    top: 100%;
+    left: 100%;
+    
+
+    
+}
+.bg{
+    background-image: url(https://images7.alphacoders.com/661/thumbbig-661986.webp );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;   
+}
